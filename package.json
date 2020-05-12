@@ -1,10 +1,26 @@
 {
   "name": "react-utils",
   "version": "1.0.0",
-  "description": "",
-  "author": "ttrmz",
+  "description": "A library of hooks and utils for React applications.",
+  "author": {
+    "name": "Ramirez Tristan",
+    "email": "tristan.rami@gmail.com"
+  },
   "license": "MIT",
-  "repository": "ttrmz/react-utils",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ttrmz/react-utils"
+  },
+  "bugs": {
+    "url": "https://github.com/ttrmz/react-utils/issues"
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "hooks",
+    "utils",
+    "functions"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
