@@ -13,14 +13,14 @@ npm install --save react-utils
 ## Usage
 
 ```jsx
-import React, { Component } from "react";
+import React, { Component } from 'react'
 
-import { useMyHook } from "react-utils";
+import { useMyHook } from 'react-utils'
 
 const Example = () => {
-  const example = useMyHook();
-  return <div>{example}</div>;
-};
+  const example = useMyHook()
+  return <div>{example}</div>
+}
 ```
 
 ## License
