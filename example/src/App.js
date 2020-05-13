@@ -1,8 +1,11 @@
 import React from 'react'
-import { useMyHook } from '@ttrmz/react-utils'
+import { UseInput } from './UseInput'
 
 const App = () => {
-  const example = useMyHook()
-  return <div>{example}</div>
+  return (
+    <>
+      <UseInput />
+    </>
+  )
 }
 export default App
