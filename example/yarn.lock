@@ -8494,7 +8494,7 @@ react-scripts@^3.0.1:
   optionalDependencies:
     fsevents "2.1.2"
 
-"react-utils@link:..":
+"@ttrmz/react-utils@link:..":
   version "0.0.0"
   uid ""
 

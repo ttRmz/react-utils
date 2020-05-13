@@ -1,6 +1,6 @@
 {
-  "name": "react-utils-example",
-  "homepage": "https://ttrmz.github.io/react-utils",
+  "name": "@ttrmz/react-utils-example",
+  "homepage": "https://ttrmz.github.io/@ttrmz/react-utils",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
@@ -9,7 +9,7 @@
     "react": "link:../node_modules/react",
     "react-dom": "^16.9.0",
     "react-scripts": "^3.0.1",
-    "react-utils": "link:.."
+    "@ttrmz/react-utils": "link:.."
   },
   "scripts": {
     "start": "react-scripts start",

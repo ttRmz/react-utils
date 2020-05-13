@@ -1,13 +1,13 @@
-# react-utils
+# @ttrmz/react-utils
 
 >
 
-[![NPM](https://img.shields.io/npm/v/react-utils.svg)](https://www.npmjs.com/package/react-utils) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@ttrmz/react-utils.svg)](https://www.npmjs.com/package/@ttrmz/react-utils) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save react-utils
+npm install --save @ttrmz/react-utils
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save react-utils
 ```jsx
 import React, { Component } from 'react'
 
-import { useMyHook } from 'react-utils'
+import { useMyHook } from '@ttrmz/react-utils'
 
 const Example = () => {
   const example = useMyHook()

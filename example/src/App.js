@@ -1,5 +1,5 @@
 import React from 'react'
-import { useMyHook } from 'react-utils'
+import { useMyHook } from '@ttrmz/react-utils'
 
 const App = () => {
   const example = useMyHook()

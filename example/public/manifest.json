@@ -1,6 +1,6 @@
 {
-  "short_name": "react-utils",
-  "name": "react-utils",
+  "short_name": "@ttrmz/react-utils",
+  "name": "@ttrmz/react-utils",
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",
