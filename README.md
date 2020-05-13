@@ -10,18 +10,9 @@
 npm install --save @ttrmz/react-utils
 ```
 
-## Usage
+## Hooks
 
-```jsx
-import React, { Component } from 'react'
-
-import { useMyHook } from '@ttrmz/react-utils'
-
-const Example = () => {
-  const example = useMyHook()
-  return <div>{example}</div>
-}
-```
+- [useInput](./doc/useInput.md)
 
 ## License
 
