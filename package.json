@@ -1,6 +1,6 @@
 {
   "name": "@ttrmz/react-utils",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A library of hooks and utils for React applications.",
   "author": {
     "name": "Ramirez Tristan",
