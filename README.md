@@ -29,6 +29,7 @@ yarn add @ttrmz/react-utils
 ## 🎣 Hooks
 
 - [useInput](./doc/useInput.md)
+- [useLocalStorage](./doc/useLocalStorage.md)
 
 ## Author
 
