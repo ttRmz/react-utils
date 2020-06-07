@@ -28,6 +28,7 @@ yarn add @ttrmz/react-utils
 
 ## 🎣 Hooks
 
+- [useEventListener](./doc/useEventListener.md)
 - [useInput](./doc/useInput.md)
 - [useLocalStorage](./doc/useLocalStorage.md)
 
