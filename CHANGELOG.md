@@ -20,6 +20,7 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 ### ✨ Enhancements
 
 - Create `useEventListener` hook.
+- Create `useLockBodyScroll` hook.
 
 ## 1.1.0 (June 5, 2020)
 
