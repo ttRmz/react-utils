@@ -31,6 +31,7 @@ yarn add @ttrmz/react-utils
 - [useEventListener](./doc/useEventListener.md)
 - [useInput](./doc/useInput.md)
 - [useLocalStorage](./doc/useLocalStorage.md)
+- [useLockBodyScroll](./doc/useLockBodyScroll.md)
 
 ## Author
 
