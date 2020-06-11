@@ -15,6 +15,12 @@ All notable changes to this project will be documented here.
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## Unreleased
+
+### ✨ Enhancements
+
+- Create `useDebounce` hook.
+
 ## 1.2.0 (June 8, 2020)
 
 ### ✨ Enhancements
