@@ -28,6 +28,7 @@ yarn add @ttrmz/react-utils
 
 ## 🎣 Hooks
 
+- [useDebounce](./doc/useDebounce.md)
 - [useEventListener](./doc/useEventListener.md)
 - [useInput](./doc/useInput.md)
 - [useLocalStorage](./doc/useLocalStorage.md)
@@ -37,7 +38,7 @@ yarn add @ttrmz/react-utils
 
 👤 **Tristan Ramirez**
 
-- Website: tristan-ramirez.me
+- Website: [tristan-ramirez.me](https://tristan-ramirez.me/)
 - Twitter: [@ttrmz](https://twitter.com/ttrmz)
 - Github: [@ttrmz](https://github.com/ttrmz)
 
