@@ -37,6 +37,7 @@ yarn add @ttrmz/react-utils
 ## 🗂 Utils
 
 - [isPromise](./doc/isPromise.md)
+- [stopEvent](./doc/stopEvent.md)
 
 ## Author
 
