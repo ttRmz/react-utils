@@ -20,6 +20,7 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 ### ✨ Enhancements
 
 - Create `isPromise` util.
+- Create `stopEvent` util.
 
 ## 1.3.0 (June 11, 2020)
 
