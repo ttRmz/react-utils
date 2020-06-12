@@ -34,6 +34,10 @@ yarn add @ttrmz/react-utils
 - [useLocalStorage](./doc/useLocalStorage.md)
 - [useLockBodyScroll](./doc/useLockBodyScroll.md)
 
+## 🗂 Utils
+
+- [isPromise](./doc/isPromise.md)
+
 ## Author
 
 👤 **Tristan Ramirez**
