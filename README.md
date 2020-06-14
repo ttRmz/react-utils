@@ -31,6 +31,7 @@ yarn add @ttrmz/react-utils
 - [useDebounce](./doc/useDebounce.md)
 - [useEventListener](./doc/useEventListener.md)
 - [useInput](./doc/useInput.md)
+- [useInterval](./doc/useInterval.md)
 - [useLocalStorage](./doc/useLocalStorage.md)
 - [useLockBodyScroll](./doc/useLockBodyScroll.md)
 
