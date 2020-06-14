@@ -34,6 +34,7 @@ yarn add @ttrmz/react-utils
 - [useInterval](./doc/useInterval.md)
 - [useLocalStorage](./doc/useLocalStorage.md)
 - [useLockBodyScroll](./doc/useLockBodyScroll.md)
+- [useTimeLeft](./doc/useTimeLeft.md)
 
 ## 🗂 Utils
 

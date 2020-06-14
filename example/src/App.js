@@ -5,6 +5,7 @@ import { UseInput } from './UseInput'
 import { UseInterval } from './UseInterval'
 import { UseLocalStorage } from './UseLocalStorage'
 import { UseLockBodyScroll } from './UseLockBodyScroll'
+import { UseTimeLeft } from './UseTimeLeft'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <UseEventListener />
       <UseInput />
       <UseInterval />
+      <UseTimeLeft />
       <UseLocalStorage />
       <UseLockBodyScroll />
     </>
