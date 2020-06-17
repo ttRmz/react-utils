@@ -1,5 +1,5 @@
 import React from 'react'
-import { copyToClipboard } from '../copyToClipboardd'
+import { copyToClipboard } from '../copyToClipboard'
 import { useTimeout } from '../useTimeout'
 
 export function useCopyToClipboard(successDuration = 0) {
