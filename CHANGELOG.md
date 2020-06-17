@@ -20,6 +20,7 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 ### ✨ Enhancements
 
 - Create `useOnClickOutside` hook.
+- Create `useTimeout` hook.
 
 ## 1.4.0 (June 15, 2020)
 

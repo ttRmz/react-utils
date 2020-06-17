@@ -36,6 +36,7 @@ yarn add @ttrmz/react-utils
 - [useLockBodyScroll](./doc/useLockBodyScroll.md)
 - [useOnClickOutside](./doc/useOnClickOutside.md)
 - [useTimeLeft](./doc/useTimeLeft.md)
+- [useTimeout](./doc/useTimeout.md)
 
 ## 🗂 Utils
 

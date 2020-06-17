@@ -7,6 +7,7 @@ import { UseLocalStorage } from './UseLocalStorage'
 import { UseLockBodyScroll } from './UseLockBodyScroll'
 import { UseOnClickOutside } from './UseOnClickOutside'
 import { UseTimeLeft } from './UseTimeLeft'
+import { UseTimeout } from './UseTimeout'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <UseEventListener />
       <UseInput />
       <UseInterval />
+      <UseTimeout />
       <UseTimeLeft />
       <UseLocalStorage />
       <UseOnClickOutside />
