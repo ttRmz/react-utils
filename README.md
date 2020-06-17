@@ -28,6 +28,7 @@ yarn add @ttrmz/react-utils
 
 ## 🎣 Hooks
 
+- [useCopyToClipboard](./doc/useCopyToClipboard.md)
 - [useDebounce](./doc/useDebounce.md)
 - [useEventListener](./doc/useEventListener.md)
 - [useInput](./doc/useInput.md)

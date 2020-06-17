@@ -1,4 +1,5 @@
 import React from 'react'
+import { UseCopyToClipboard } from './UseCopyToClipboard'
 import { UseDebounce } from './UseDebounce'
 import { UseEventListener } from './UseEventListener'
 import { UseInput } from './UseInput'
@@ -12,6 +13,7 @@ import { UseTimeout } from './UseTimeout'
 const App = () => {
   return (
     <>
+      <UseCopyToClipboard />
       <UseDebounce />
       <UseEventListener />
       <UseInput />
