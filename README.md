@@ -40,6 +40,7 @@ yarn add @ttrmz/react-utils
 
 ## 🗂 Utils
 
+- [copyToClipboard](./doc/copyToClipboard.md)
 - [isPromise](./doc/isPromise.md)
 - [stopEvent](./doc/stopEvent.md)
 
