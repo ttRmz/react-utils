@@ -21,6 +21,8 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 
 - Create `useOnClickOutside` hook.
 - Create `useTimeout` hook.
+- Create `copyToClipboard` util.
+- Create `useCopyToClipboard` hook.
 
 ## 1.4.0 (June 15, 2020)
 
