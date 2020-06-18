@@ -42,7 +42,7 @@ export function UseEventListener() {
         <UseEventListenerElement clicked={clicked} setClicked={setClicked} />
       )}
 
-      <h1>useEventListener demo (on cutom element)</h1>
+      <h1>useEventListener demo (on custom element)</h1>
 
       <p ref={setElement}>you clicked {clickedOnElement} times on me</p>
     </>
