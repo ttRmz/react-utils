@@ -1,6 +1,7 @@
 # Welcome to @ttrmz/react-utils 👋
 
 [![NPM](https://img.shields.io/npm/v/@ttrmz/react-utils.svg)](https://www.npmjs.com/package/@ttrmz/react-utils)
+[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)](https://ttrmz.github.io/react-utils)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 ![Prerequisite](https://img.shields.io/badge/node-%3E%3D8-blue.svg)
 ![Prerequisite](https://img.shields.io/badge/npm-%3E%3D5-blue.svg)
@@ -28,22 +29,22 @@ yarn add @ttrmz/react-utils
 
 ## 🎣 Hooks
 
-- [useCopyToClipboard](./doc/useCopyToClipboard.md)
-- [useDebounce](./doc/useDebounce.md)
-- [useEventListener](./doc/useEventListener.md)
-- [useInput](./doc/useInput.md)
-- [useInterval](./doc/useInterval.md)
-- [useLocalStorage](./doc/useLocalStorage.md)
-- [useLockBodyScroll](./doc/useLockBodyScroll.md)
-- [useOnClickOutside](./doc/useOnClickOutside.md)
-- [useTimeLeft](./doc/useTimeLeft.md)
-- [useTimeout](./doc/useTimeout.md)
+- [useCopyToClipboard](./src/useCopyToClipboard/useCopyToClipboard.md)
+- [useDebounce](./src/useDebounce/useDebounce.md)
+- [useEventListener](./src/useEventListener/useEventListener.md)
+- [useInput](./src/useInput/useInput.md)
+- [useInterval](./src/useInterval/useInterval.md)
+- [useLocalStorage](./src/useLocalStorage/useLocalStorage.md)
+- [useLockBodyScroll](./src/useLockBodyScroll/useLockBodyScroll.md)
+- [useOnClickOutside](./src/useOnClickOutside/useOnClickOutside.md)
+- [useTimeLeft](./src/useTimeLeft/useTimeLeft.md)
+- [useTimeout](./src/useTimeout/useTimeout.md)
 
 ## 🗂 Utils
 
-- [copyToClipboard](./doc/copyToClipboard.md)
-- [isPromise](./doc/isPromise.md)
-- [stopEvent](./doc/stopEvent.md)
+- [copyToClipboard](./src/copyToClipboard/copyToClipboard.md)
+- [isPromise](./src/isPromise/isPromise.md)
+- [stopEvent](./src/stopEvent/stopEvent.md)
 
 ## Author
 
@@ -74,3 +75,5 @@ Give a ⭐️ if this project helped you!
 Copyright © 2020 [Ramirez Tristan](https://github.com/ttrmz).
 
 This project is [MIT](https://github.com/ttrmz/react-utils/blob/master/LICENSE) licensed.
+
+[sb]: https://developers.facebook.com/tools/explorer/
