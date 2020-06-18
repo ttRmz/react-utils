@@ -1,22 +1,19 @@
 {
   "files": {
-    "main.css": "/@ttrmz/react-utils/static/css/main.2c6a48fe.chunk.css",
-    "main.js": "/@ttrmz/react-utils/static/js/main.0a31b2d6.chunk.js",
-    "main.js.map": "/@ttrmz/react-utils/static/js/main.0a31b2d6.chunk.js.map",
-    "runtime-main.js": "/@ttrmz/react-utils/static/js/runtime-main.326f6057.js",
-    "runtime-main.js.map": "/@ttrmz/react-utils/static/js/runtime-main.326f6057.js.map",
-    "static/js/2.387d9004.chunk.js": "/@ttrmz/react-utils/static/js/2.387d9004.chunk.js",
-    "static/js/2.387d9004.chunk.js.map": "/@ttrmz/react-utils/static/js/2.387d9004.chunk.js.map",
-    "index.html": "/@ttrmz/react-utils/index.html",
-    "precache-manifest.d280230637966c4e1387c4753bb13133.js": "/@ttrmz/react-utils/precache-manifest.d280230637966c4e1387c4753bb13133.js",
-    "service-worker.js": "/@ttrmz/react-utils/service-worker.js",
-    "static/css/main.2c6a48fe.chunk.css.map": "/@ttrmz/react-utils/static/css/main.2c6a48fe.chunk.css.map",
-    "static/js/2.387d9004.chunk.js.LICENSE.txt": "/@ttrmz/react-utils/static/js/2.387d9004.chunk.js.LICENSE.txt"
+    "main.js": "./main.5672ffee5fdd71e6a17d.bundle.js",
+    "main.js.map": "./main.5672ffee5fdd71e6a17d.bundle.js.map",
+    "runtime~main.js": "./runtime~main.5672ffee5fdd71e6a17d.bundle.js",
+    "runtime~main.js.map": "./runtime~main.5672ffee5fdd71e6a17d.bundle.js.map",
+    "vendors~main.js": "./vendors~main.5672ffee5fdd71e6a17d.bundle.js",
+    "vendors~main.js.map": "./vendors~main.5672ffee5fdd71e6a17d.bundle.js.map",
+    "iframe.html": "./iframe.html",
+    "precache-manifest.90f2c4c457e116d4427bb2d95d58a8ca.js": "./precache-manifest.90f2c4c457e116d4427bb2d95d58a8ca.js",
+    "service-worker.js": "./service-worker.js",
+    "vendors~main.5672ffee5fdd71e6a17d.bundle.js.LICENSE.txt": "./vendors~main.5672ffee5fdd71e6a17d.bundle.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.326f6057.js",
-    "static/js/2.387d9004.chunk.js",
-    "static/css/main.2c6a48fe.chunk.css",
-    "static/js/main.0a31b2d6.chunk.js"
+    "runtime~main.5672ffee5fdd71e6a17d.bundle.js",
+    "vendors~main.5672ffee5fdd71e6a17d.bundle.js",
+    "main.5672ffee5fdd71e6a17d.bundle.js"
   ]
 }
