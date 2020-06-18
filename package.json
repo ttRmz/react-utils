@@ -33,11 +33,13 @@
     "test:watch": "react-scripts test --env=jsdom",
     "format": "prettier --write \"**/*.{js,json,scss,md,yml,html}\"",
     "build": "rollup -c",
+    "build-storybook": "build-storybook",
     "start": "rollup -c -w",
+    "storybook": "start-storybook -p 9009",
     "prepare": "yarn run build",
     "bump-version": "react-libraries bump-version",
-    "predeploy": "cd example && yarn install && yarn run build",
-    "deploy": "gh-pages -d example/build"
+    "predeploy": "build-storybook",
+    "deploy": "gh-pages -d storybook-static"
   },
   "peerDependencies": {
     "react": "^16.9.0"
@@ -64,6 +66,12 @@
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "@simonrelet/react-libraries": "^2.0.0",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-knobs": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/preset-create-react-app": "^3.1.1",
+    "@storybook/react": "^5.3.19",
     "@testing-library/react-hooks": "^3.2.1",
     "babel-eslint": "^10.0.1",
     "cross-env": "^5.2.0",
@@ -73,7 +81,7 @@
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-promise": "^4.0.0",
-    "eslint-plugin-react": "^7.10.0",
+    "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-standard": "^3.1.0",
     "gh-pages": "^2.0.1",
     "prettier": "^2.0.5",
@@ -85,6 +93,8 @@
     "rollup-plugin-commonjs": "^9.2.0",
     "rollup-plugin-node-resolve": "^4.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",
-    "rollup-plugin-url": "^2.1.0"
-  }
+    "rollup-plugin-url": "^2.1.0",
+    "storybook-readme": "^5.0.8"
+  },
+  "dependencies": {}
 }
