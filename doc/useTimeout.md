@@ -24,10 +24,10 @@ const Example = () => {
 
 ## Parameters
 
-| Name     | Description                            | Type   |
-| -------- | -------------------------------------- | ------ |
-| callback | callback function called on timeout    | Number |
-| delay    | timeout delay (default value : _3000_) | Number |
+| Name     | Description                            | Type     |
+| -------- | -------------------------------------- | -------- |
+| callback | callback function called on timeout    | Function |
+| delay    | timeout delay (default value : _3000_) | Number   |
 
 ## Returned object
 
