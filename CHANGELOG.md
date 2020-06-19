@@ -17,6 +17,10 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 
 ## Unreleased
 
+### 🐛 Bug fixes
+
+- useEffect dependencies in `useEventListener`
+
 ### 📝 Documentation
 
 - Create a `Storybook`. [link here](https://ttrmz.github.io/react-utils)

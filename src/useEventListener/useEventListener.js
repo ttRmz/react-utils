@@ -11,5 +11,5 @@ export function useEventListener(eventName, handler, element = window) {
     return () => {
       element.removeEventListener(eventName, eventListener)
     }
-  }, [eventName, element])
+  }, [eventName, element, handler])
 }
