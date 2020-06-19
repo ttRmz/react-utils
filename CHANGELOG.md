@@ -20,6 +20,7 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 ### 🐛 Bug fixes
 
 - useEffect dependencies in `useEventListener`
+- useEffect dependencies in `useTimeout`
 
 ### 📝 Documentation
 
