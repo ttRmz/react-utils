@@ -8,18 +8,18 @@ export function useTimeout(callback = () => {}, delay = 3000) {
     savedRefCallback.current = callback
   }, [callback])
 
-  function handler() {
-    savedRefCallback.current && savedRefCallback.current()
-    stop()
-  }
-
-  function stop() {
-    setPending(false)
-  }
-
-  function start() {
+  const start = () => {
     setPending(true)
   }
+
+  const stop = React.useCallback(() => {
+    setPending(false)
+  }, [])
+
+  const handler = React.useCallback(() => {
+    savedRefCallback.current && savedRefCallback.current()
+    stop()
+  }, [savedRefCallback, stop])
 
   React.useEffect(() => {
     if (pending) {
@@ -29,7 +29,7 @@ export function useTimeout(callback = () => {}, delay = 3000) {
         window.clearTimeout(timeout)
       }
     }
-  }, [pending])
+  }, [pending, delay, handler])
 
   return {
     start,
