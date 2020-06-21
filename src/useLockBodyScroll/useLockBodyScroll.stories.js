@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react'
 import { useLockBodyScroll, useOnClickOutside } from '..'
 import README from './useLockBodyScroll.md'

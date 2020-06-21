@@ -29,7 +29,7 @@ export function useTimeLeft(date, options = DEFAULT_OPTIONS) {
 
   useInterval(() => setTimeLeft(getTimeLeft(time)), delay)
 
-  if (!!relative) {
+  if (relative) {
     const days = Math.trunc(timeLeft / ONE_DAY_MS)
     const hours = Math.trunc(timeLeft / ONE_HOUR_MS) - days * 24
     const minutes =
