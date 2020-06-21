@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { boolean, number } from '@storybook/addon-knobs'
 import React from 'react'
 import { useInput, useTimeLeft } from '..'
