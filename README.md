@@ -44,6 +44,7 @@ yarn add @ttrmz/react-utils
 ## 🗂 Utils
 
 - [copyToClipboard](./src/utils/copyToClipboard/copyToClipboard.md)
+- [debounce](./src/utils/debounce/debounce.md)
 - [isPromise](./src/utils/isPromise/isPromise.md)
 - [stopEvent](./src/utils/stopEvent/stopEvent.md)
 
