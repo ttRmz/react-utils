@@ -17,8 +17,22 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 
 ## Unreleased
 
+### 🚨 Breaking changes
+
+- `useEventListener` : element paramater has been replaced by options. Set the targeted element into options object parameter instead.
+
+```diff
+  useEventListener(
+    "click",
+    () => {},
+-   element
++   { element }
+  )
+```
+
 ### ✨ Enhancements
 
+- `useEventListener` : implement debounce interval option
 - Create `useCursorPosition` hook.
 - Create `debounce` util.
 - Create `useWatchPosition` hook.

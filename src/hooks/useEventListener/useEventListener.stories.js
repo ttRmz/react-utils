@@ -1,5 +1,7 @@
+import { number, text } from '@storybook/addon-knobs'
 import React from 'react'
 import { useEventListener } from '..'
+import { MINIMUM_DEBOUNCE_INTERVAL } from '../../core/constants'
 import README from './useEventListener.md'
 
 export default {
@@ -13,8 +15,12 @@ export default {
 
 export const Basic = () => {
   const [clicked, setClicked] = React.useState(0)
+  const interval = number('options.interval', MINIMUM_DEBOUNCE_INTERVAL, {})
+  const event = text('event', 'click')
 
-  useEventListener('click', () => setClicked((prev) => prev + 1))
+  useEventListener(event, () => setClicked((prev) => prev + 1), {
+    interval
+  })
 
   return <p>you clicked {clicked} times</p>
 }
@@ -26,8 +32,13 @@ Basic.story = {
 export const Custom = () => {
   const [clicked, setClicked] = React.useState(0)
   const [element, setElement] = React.useState(null)
+  const interval = number('options.interval', MINIMUM_DEBOUNCE_INTERVAL, {})
+  const event = text('event', 'click')
 
-  useEventListener('click', () => setClicked((prev) => prev + 1), element)
+  useEventListener(event, () => setClicked((prev) => prev + 1), {
+    element,
+    interval
+  })
 
   return <p ref={setElement}>you clicked {clicked} times on me</p>
 }
