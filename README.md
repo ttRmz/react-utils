@@ -21,9 +21,9 @@
 
 ```sh
 npm install --save @ttrmz/react-utils
+```
 
-# or
-
+```sh
 yarn add @ttrmz/react-utils
 ```
 
