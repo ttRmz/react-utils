@@ -21,6 +21,7 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 
 - Create `useCursorPosition` hook.
 - Create `debounce` util.
+- Create `useWatchPosition` hook.
 
 ## 1.5.1 (June 19, 2020)
 

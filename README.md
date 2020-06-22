@@ -40,6 +40,7 @@ yarn add @ttrmz/react-utils
 - [useOnClickOutside](./src/hooks/useOnClickOutside/useOnClickOutside.md)
 - [useTimeLeft](./src/hooks/useTimeLeft/useTimeLeft.md)
 - [useTimeout](./src/hooks/useTimeout/useTimeout.md)
+- [useWatchPosition](./src/hooks/useWatchPosition/useWatchPosition.md)
 
 ## 🗂 Utils
 
