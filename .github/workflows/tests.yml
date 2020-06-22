@@ -1,0 +1,15 @@
+name: Tests
+
+on: pull_request
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install modules
+        run: yarn
+      - name: Run tests
+        run: yarn run test
+        env:
+          SKIP_PREFLIGHT_CHECK: true
