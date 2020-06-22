@@ -1,11 +1,11 @@
 import { number } from '@storybook/addon-knobs'
 import PropTypes from 'prop-types'
 import React from 'react'
-import { useCopyToClipboard, useInput } from '../'
+import { useCopyToClipboard, useInput } from '../..'
 import README from './useCopyToClipboard.md'
 
 export default {
-  title: 'Hooks|useCopyToClipboard',
+  title: 'Hooks/useCopyToClipboard',
   parameters: {
     readme: {
       sidebar: README
@@ -23,7 +23,7 @@ const InputButton = ({ copy, copied }) => {
 
   return (
     <div>
-      <input placeholder={'Text to copy'} onChange={onChange} value={value} />
+      <input placeholder="Text to copy" onChange={onChange} value={value} />
 
       <button onClick={onCopy}>{copied ? 'Copied' : 'Copy'}</button>
     </div>

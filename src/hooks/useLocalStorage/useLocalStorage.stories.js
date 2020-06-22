@@ -3,7 +3,7 @@ import { useInput, useLocalStorage } from '..'
 import README from './useLocalStorage.md'
 
 export default {
-  title: 'Hooks|useLocalStorage',
+  title: 'Hooks/useLocalStorage',
   parameters: {
     readme: {
       sidebar: README
@@ -13,7 +13,7 @@ export default {
 
 export const Text = () => {
   const [storedValue, setStoredValue] = useLocalStorage(
-    'Hooks|useLocalStorageString_demoKey',
+    'Hooks/useLocalStorageString_demoKey',
     ''
   )
 
@@ -40,7 +40,7 @@ export const User = () => {
   const INITIAL_LOCAL_STORAGE = { name: 'John', username: 'Doe' }
 
   const [storedValue, setStoredValue] = useLocalStorage(
-    'Hooks|useLocalStorageObject_demoKey',
+    'Hooks/useLocalStorageObject_demoKey',
     INITIAL_LOCAL_STORAGE
   )
 
@@ -93,7 +93,7 @@ export const Fruits = () => {
   ]
 
   const [storedValue, setStoredValue] = useLocalStorage(
-    'Hooks|useLocalStorageArray_demoKey',
+    'Hooks/useLocalStorageArray_demoKey',
     INITIAL_LOCAL_STORAGE
   )
 
