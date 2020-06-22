@@ -29,22 +29,23 @@ yarn add @ttrmz/react-utils
 
 ## 🎣 Hooks
 
-- [useCopyToClipboard](./src/useCopyToClipboard/useCopyToClipboard.md)
-- [useDebounce](./src/useDebounce/useDebounce.md)
-- [useEventListener](./src/useEventListener/useEventListener.md)
-- [useInput](./src/useInput/useInput.md)
-- [useInterval](./src/useInterval/useInterval.md)
-- [useLocalStorage](./src/useLocalStorage/useLocalStorage.md)
-- [useLockBodyScroll](./src/useLockBodyScroll/useLockBodyScroll.md)
-- [useOnClickOutside](./src/useOnClickOutside/useOnClickOutside.md)
-- [useTimeLeft](./src/useTimeLeft/useTimeLeft.md)
-- [useTimeout](./src/useTimeout/useTimeout.md)
+- [useCopyToClipboard](./src/hooks/useCopyToClipboard/useCopyToClipboard.md)
+- [useCursorPosition](./src/hooks/useCursorPosition/useCursorPosition.md)
+- [useDebounce](./src/hooks/useDebounce/useDebounce.md)
+- [useEventListener](./src/hooks/useEventListener/useEventListener.md)
+- [useInput](./src/hooks/useInput/useInput.md)
+- [useInterval](./src/hooks/useInterval/useInterval.md)
+- [useLocalStorage](./src/hooks/useLocalStorage/useLocalStorage.md)
+- [useLockBodyScroll](./src/hooks/useLockBodyScroll/useLockBodyScroll.md)
+- [useOnClickOutside](./src/hooks/useOnClickOutside/useOnClickOutside.md)
+- [useTimeLeft](./src/hooks/useTimeLeft/useTimeLeft.md)
+- [useTimeout](./src/hooks/useTimeout/useTimeout.md)
 
 ## 🗂 Utils
 
-- [copyToClipboard](./src/copyToClipboard/copyToClipboard.md)
-- [isPromise](./src/isPromise/isPromise.md)
-- [stopEvent](./src/stopEvent/stopEvent.md)
+- [copyToClipboard](./src/utils/copyToClipboard/copyToClipboard.md)
+- [isPromise](./src/utils/isPromise/isPromise.md)
+- [stopEvent](./src/utils/stopEvent/stopEvent.md)
 
 ## Author
 
