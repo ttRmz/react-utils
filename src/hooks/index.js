@@ -1,4 +1,5 @@
 export * from './useCopyToClipboard'
+export * from './useCursorPosition'
 export * from './useDebounce'
 export * from './useEventListener'
 export * from './useInput'
