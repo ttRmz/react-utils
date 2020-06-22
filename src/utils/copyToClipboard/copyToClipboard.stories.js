@@ -1,7 +1,7 @@
 import README from './copyToClipboard.md'
 
 export default {
-  title: 'Utils|copyToClipboard',
+  title: 'Utils/copyToClipboard',
   parameters: {
     readme: {
       content: README

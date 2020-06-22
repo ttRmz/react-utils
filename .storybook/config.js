@@ -14,7 +14,8 @@ addParameters({
       brandTitle: pkg.name,
       brandUrl: pkg.repository.url
     }),
-    panelPosition: 'right'
+    panelPosition: 'right',
+    showRoots: true
   }
 })
 

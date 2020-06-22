@@ -1,13 +1,13 @@
 /* eslint-disable react/prop-types */
 import { boolean, number } from '@storybook/addon-knobs'
 import React from 'react'
-import { useInput, useTimeLeft } from '..'
+import { useInput, useTimeLeft } from '../..'
 import README from './useTimeLeft.md'
 
 const DATE_PLUS_2_WEEKS = new Date(+new Date() + 12096e5)
 
 export default {
-  title: 'Hooks|useTimeLeft',
+  title: 'Hooks/useTimeLeft',
   parameters: {
     readme: {
       sidebar: README

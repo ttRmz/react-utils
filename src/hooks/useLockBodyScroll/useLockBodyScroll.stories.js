@@ -4,7 +4,7 @@ import { useLockBodyScroll, useOnClickOutside } from '..'
 import README from './useLockBodyScroll.md'
 
 export default {
-  title: 'Hooks|useLockBodyScroll',
+  title: 'Hooks/useLockBodyScroll',
   parameters: {
     readme: {
       sidebar: README

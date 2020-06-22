@@ -3,7 +3,7 @@ import { useInput } from '..'
 import README from './useInput.md'
 
 export default {
-  title: 'Hooks|useInput',
+  title: 'Hooks/useInput',
   parameters: {
     readme: {
       sidebar: README

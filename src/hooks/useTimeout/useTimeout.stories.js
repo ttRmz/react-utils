@@ -1,9 +1,9 @@
 import React from 'react'
-import { useTimeout } from '..'
+import { useTimeout } from '../..'
 import README from './useTimeout.md'
 
 export default {
-  title: 'Hooks|useTimeout',
+  title: 'Hooks/useTimeout',
   parameters: {
     readme: {
       sidebar: README

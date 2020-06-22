@@ -3,7 +3,7 @@ import { useEventListener } from '..'
 import README from './useEventListener.md'
 
 export default {
-  title: 'Hooks|useEventListener',
+  title: 'Hooks/useEventListener',
   parameters: {
     readme: {
       sidebar: README

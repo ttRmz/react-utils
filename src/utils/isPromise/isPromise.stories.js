@@ -1,7 +1,7 @@
 import README from './isPromise.md'
 
 export default {
-  title: 'Utils|isPromise',
+  title: 'Utils/isPromise',
   parameters: {
     readme: {
       content: README
