@@ -4,7 +4,7 @@ import { useInterval } from '..'
 import README from './useInterval.md'
 
 export default {
-  title: 'Hooks|useInterval',
+  title: 'Hooks/useInterval',
   parameters: {
     readme: {
       sidebar: README

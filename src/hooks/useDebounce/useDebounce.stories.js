@@ -4,7 +4,7 @@ import { useDebounce, useInput } from '..'
 import README from './useDebounce.md'
 
 export default {
-  title: 'Hooks|useDebounce',
+  title: 'Hooks/useDebounce',
   parameters: {
     readme: {
       sidebar: README

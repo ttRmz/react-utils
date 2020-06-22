@@ -1,9 +1,9 @@
 import React from 'react'
-import { useOnClickOutside } from '..'
+import { useOnClickOutside } from '../..'
 import README from './useOnClickOutside.md'
 
 export default {
-  title: 'Hooks|useOnClickOutside',
+  title: 'Hooks/useOnClickOutside',
   parameters: {
     readme: {
       sidebar: README
