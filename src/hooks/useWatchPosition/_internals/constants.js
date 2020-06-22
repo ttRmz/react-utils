@@ -1,6 +1,6 @@
-export const MINIMUM_RESIZE_INTERVAL = 16
+import { MINIMUM_DEBOUNCE_INTERVAL } from '../../../core/constants'
 
 export const DEFAULT_OPTIONS = {
   on: 'scroll',
-  interval: MINIMUM_RESIZE_INTERVAL
+  interval: MINIMUM_DEBOUNCE_INTERVAL
 }
