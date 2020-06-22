@@ -54,6 +54,6 @@ const Example = () => {
 | width  | Number |
 | height | Number |
 | top    | Number |
-| bottum | Number |
+| bottom | Number |
 | right  | Number |
 | left   | Number |
